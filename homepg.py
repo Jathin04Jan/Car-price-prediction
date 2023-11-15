@@ -11,8 +11,8 @@ st.title('Car Price Predictor')
 
 
 # Taking the user input
-year = st.number_input(label="Year: ", step= 1)
-present_price = st.number_input(label="Present price: ", step=1., format= "%.2f")
+year = st.number_input(label="Make Year: ", step= 1)
+present_price = st.number_input(label="Present price (In lakhs): ", step=1., format= "%.2f")
 km_driven = st.number_input(label="Km driven: ", step= 1)
 
 fuel_type = st.selectbox('Whats the fuel type ? ', ('Petrol', 'Diesel', 'CNG'))
