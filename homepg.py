@@ -48,8 +48,6 @@ input_data = (year, present_price, km_driven, fuel_type, seller_type, transmissi
 # Reshaping the input data for prediction
 input_data = np.asarray(input_data).reshape(1, -1)
 
-#input_data = input_data.astype(np.float32)
-
 
 # Creating a button and making prediction
 if st.button('Predict Price'):
