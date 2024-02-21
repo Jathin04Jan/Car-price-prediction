@@ -10,7 +10,7 @@ This project is a web application that predicts the selling price of a car based
 
 ## Getting Started
 
-1. **Clone the repository**: `git clone https://github.com/yourusername/project.git`
+1. **Clone the repository**: `git clone https://github.com/Jathin04Jan/Car-price-prediction.git`
 2. **Install the required dependencies**: `pip3 install streamlit`
 4. **Run the application**: `streamlit run 'homepage.py'`
 
